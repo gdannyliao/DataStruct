@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">DataStructJava</string>
+
+    <string-array name="data_struct_types">
+        <item >Queue</item>
+        <item >Stack</item>
+        <item>Priority Queue</item>
+        <item>Heap Sort</item>
+        <item>Selection Sort</item>
+        <item>Insertion Sort</item>
+        <item>Shell Sort</item>
+        <item>Merge Sort</item>
+        <item>Quick Sort</item>
+        <item>KMP</item>
+    </string-array>
+</resources>
