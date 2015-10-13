@@ -8,8 +8,12 @@ public class KMPActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		testKMP();
+		testDFA();
 	}
-	
+
+	void testDFA(){
+		IPStringToInt.test();
+	}
 	void testKMP() {
 		String s = "abaaaabaaaaaaaa";
 		String p = "baaaaa";

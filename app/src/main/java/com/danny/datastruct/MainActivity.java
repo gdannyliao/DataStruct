@@ -14,7 +14,7 @@ public class MainActivity extends ActionBarActivity {
 		
 		FragmentManager fm = getSupportFragmentManager();
 		FragmentTransaction transaction = fm.beginTransaction();
-		transaction.add(R.id.relativelayout_container, new StructListFragment());
+		transaction.add(R.id.container, new StructListFragment());
 		transaction.commit();
 		
 	}
