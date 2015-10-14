@@ -163,6 +163,5 @@ public class IPStringToInt {
 		System.out.println(toInt("0.255.0.0"));
 		System.out.println(toInt("255.0.0.0"));
 
-
 	}
 }
