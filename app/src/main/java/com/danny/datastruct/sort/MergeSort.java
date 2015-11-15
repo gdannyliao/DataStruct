@@ -20,19 +20,22 @@ public class MergeSort extends Sort {
 	
 	/*      i     m j      
 	 *      4 2 5 5 7 3 8 6 
-	 *  s1:j>max
+	 *  s1: a[j] > a[i], i++
 	 * 		4--------------
-	 *  s2:j>max 
+	 *  s2: a[j] > a[i], i++
 	 *  	4 2------------
-	 *  s3: i=5
+	 *  s3: a[j] > a[i], i++
 	 *  	4 2 5----------
-	 *  s4: i=5
+	 *  s4: a[j] > a[i], i++
 	 *  	4 2 5 5--------
 	 *  s5: i=7 i>mid j++
 	 *  	4 2 5 5 7------
 	 *  s6: i=7 i>mid j++
 	 *  	4 2 5 5 7 3----
-	 *  s7: i=7 
+	 *  s7: i=7
+	 *      4 2 5 5 7 3 8--
+	 *  s8:
+	 *      4 2 5 5 7 3 8 6
 	 */
 	public static void merge(Comparable[] arr, int min, int mid, int max) {
 		int i = min;
