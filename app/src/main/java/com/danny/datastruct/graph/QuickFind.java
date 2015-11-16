@@ -3,8 +3,8 @@ package com.danny.datastruct.graph;
 /**
  * Created by jkl on 15/11/15.
  */
-public class QuickUnionFind extends UnionFind {
-    public QuickUnionFind(int n) {
+public class QuickFind extends UnionFind {
+    public QuickFind(int n) {
         super(n);
     }
 
